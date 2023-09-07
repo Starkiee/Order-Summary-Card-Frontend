@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Red-Hat-Display-Regular;
+    src: url(Red_Hat_Display/static/RedHatDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: Red-Hat-Display-Bold;
+    src: url(Red_Hat_Display/static/RedHatDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: Red-Hat-Display-Semi-Bold;
+    src: url(Red_Hat_Display/static/RedHatDisplay-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Red-Hat-Display-Light;
+    src: url(Red_Hat_Display/static/RedHatDisplay-Light.ttf);
+}
+
+@font-face {
+    font-family: extra-bold;
+    src: url(Red_Hat_Display/static/RedHatDisplay-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: medium;
+    src: url(Red_Hat_Display/static/RedHatDisplay-Medium.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    font-family: Red-Hat-Display-Regular;
+    font-size: 16px;
+}
+
+.container {
+    width: 400px;
+    margin: 63px auto 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    border: 0;
+    box-shadow: 0 0 40px 3px rgba(0, 0, 0, 0.05);
+}
+
+.head-image {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-family: extra-bold;
+    font-weight: 900;
+}
+
+.paragraph {
+    font-family: Red-Hat-Display-Regular;
+    padding: 0 50px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px 0;
+    margin: 0 auto;
+    background-color:hsl(225, 100%, 98%);
+}
+
+.plan {
+    font-family: Red-Hat-Display-Bold;
+}
+
+#logo {
+    justify-self: left;
+    width: 100%;
+    height: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.plan-details {
+    border: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 65px;
+    padding: 0;
+}
+
+.change {
+    font-family: medium;
+    color: hsl(245, 75%, 52%);
+}
+
+.change:visited {
+    color: #ff0000;
+}
+
+.change:active {
+    color: hsl(128, 89%, 47%);
+}
+
+.change:hover {
+    color: rgba(118, 108, 241, 255);
+}
+
+.payment {
+    width: 80%;
+    font-family: Red-Hat-Display-Bold;
+    color: hsl(225, 100%, 100%);
+    margin: 30px auto 10px;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 8px 8px 25px 4px rgba(0, 0, 0, 0.2);
+    background-color: hsl(245, 75%, 52%);
+}
+
+.payment:visited {
+    background-color: #ff0000;
+}
+
+.payment:active {
+    background-color: #008000;
+}
+
+.payment:hover {
+    background-color: rgba(118, 108, 241, 255);
+}
+
+.cancel {
+    border: 0;
+    font-family: Red-Hat-Display-Bold;
+    color: rgb(58, 58, 58);
+    background-color: rgb(255, 255, 255);
+    margin:15px auto 40px;
+}
+
+.cancel:active {
+    color:hsl(134, 89%, 47%);
+}
+
+.cancel:hover {
+    color: rgba(118, 108, 241, 255);
+}
+
+.cancel:visited {
+    color: #ff0000;
+}
